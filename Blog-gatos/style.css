@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    font-size: 62.5%;
+    --color-nav: #065E7C;
+    --color-nav-input: rgba(255, 255, 255, 0.20);
+    --color-white: #ffffff;
+}
+
+body {
+    font-size: 1.6rem;
+    font-family: 'Mulish';
+}
+
+#app {
+    max-width: 43rem;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    padding: 1.6rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    background: var(--color-nav);
+}
+
+header nav input {
+    background: var(--color-nav-input);
+    border-radius: .4rem;
+    
+    border: 0;
+    padding: 1.2rem 7.2rem 1.2rem 1.4rem;
+}
+
+header nav input::placeholder{
+    color: var(--color-white);
+}
+
+.foto-gato {
+    margin-bottom: 3.1rem;
+}
+
+.title {
+    margin: 0 6.6rem 3.1rem 2.2rem;
+}
+
+h2 {
+    font-size: 2.4rem;
+    font-weight: 700;
+    line-height: 3.8rem;
+    color: #202024;
+}
+
+.title button {
+    margin-top: .8rem;
+    padding: 1.2rem;
+    border-radius: 50%;
+    background: var(--color-nav);
+    border: 0;
+}
+
+.buttons {
+    display: flex;
+    gap: 1.2rem;
+}
+
+.texto {
+    margin: 0 2.6rem 0 2.2rem;
+    line-height: 2.5rem;
+    color: #121214;
+}
+
+aside {
+    margin: 3.4rem 2.6rem 0 2.2rem;
+}
+
+aside h2 {
+    margin-bottom: 3.2rem;
+}
+
+.noticias {
+    display: flex;
+    flex-direction: column;
+    gap: 3.2rem;
+}
+
+.card {
+    display: flex;
+    gap: 1.6rem;
+}
+
+span {
+    display: block;
+    margin-bottom: 1.6rem;
+
+    font-size: 1.8rem;
+    font-weight: 700;
+    line-height: 2.8rem;
+    color: #202024;
+}
+
+.card-text p {
+    font-size: 1.4rem;
+    line-height: 2.2rem;
+    color: #121214;
+}
+
+footer {
+    margin: 3.9rem 0;
+    padding: 1.6rem;
+    width: 100%;
+    background: #387E96;
+    text-align: center;
+    color: var(--color-white);
+}
